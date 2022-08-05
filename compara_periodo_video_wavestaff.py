@@ -85,7 +85,7 @@ if __name__ == "__main__":
     ax2.set_xlabel('Time [sec]')
     ax2.set_ylabel('Heave [m]')
     fig.tight_layout()
-    fig.savefig(pth_out + 'series_{}.png'.format(fln), bbox_inches='tight')
+    # fig.savefig(pth_out + 'series_{}.png'.format(fln), bbox_inches='tight')
 
     # espectros
     fig, ax1 = plt.subplots(figsize=(10, 6))
@@ -106,33 +106,7 @@ if __name__ == "__main__":
     ax2.tick_params(axis='y', labelcolor=color)
     ax2.set_ylim(bottom=0)
     fig.tight_layout()
-    fig.savefig(pth_out + 'espectros_{}.png'.format(fln), bbox_inches='tight')
+    # fig.savefig(pth_out + 'espectros_{}.png'.format(fln), bbox_inches='tight')
 
     plt.show()
 
-
-
-
-
-
-
-# ###############################################################################
-# # calculo do periodo de onda
-
-
-
-# # pega o tempo especifico de onde a onda ja chegou
-# # df = df[20:]
-
-# # calculo do espectro
-
-
-
-
-
-
-
-
-# fig = plt.figure()
-# ax1 = fig.add_subplot(111)
-# ax1.imshow(frame)
